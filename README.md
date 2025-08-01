@@ -99,12 +99,12 @@
 
 
 ### Результат
-В результате лучшие результаты показывают модели Random Forest Regressor и Gradient Boosting Regressor.
+В результате лучшие результаты показывают модели Random Forest Regressor.
 
-Результаты лучшей модели - :
+Результаты лучшей модели - Random Forest Regressor with standardised numerical features and binary features:
 
-**Mean Absolute Error (MAE) = ** \
-**R-Squared = **
+**Mean Absolute Error (MAE) = 21195** \
+**R-Squared = 0.942**
 
 
 :arrow_up:[to Table of Contents](README.md#оглавление)
