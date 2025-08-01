@@ -34,6 +34,7 @@
 ➔ **mls-id** and **MlsId** — MLS (Multiple Listing Service) identifier; \
 ➔ **target** — the price of the real estate object (the target feature that needs to be predicted).
 
+[Ссылка на данные](https://drive.google.com/file/d/11-ZNNIdcQ7TbT8Y0nsQ3Q0eiYQP__NIW/view)
 
 :arrow_up:[to Table of Contents](README.md#оглавление)
 
