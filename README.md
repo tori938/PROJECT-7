@@ -52,7 +52,7 @@
       - fireplace
       - and so on
    - создание признаков:
-      - property age, property group
+      - property age, property age group
       - availability of fireplace, type of fireplace
       - availability of heating, type of heating, source of heat
       - availability of cooling, type of cooling, source of cool
@@ -63,7 +63,7 @@
 
 3. Разведывательный Анализ Данных:
    - Проверка на Мультиколлинеарность:
-      - Spearman's Correlation для категориальных признаков
+      - Spearman's Correlation
    - Визуализация Данных:
       - state
       - property group / type
@@ -86,6 +86,7 @@
       - SelectKBest
    - шкалирование данных:
       - MinMax
+      - StandardScaler
 
 6. Построение Модели
    - перебор гиперпараметров с помощью Optuna
@@ -98,7 +99,9 @@
 
 
 ### Результат
-В результате лучший результат показала модель Random Forest Regressor со стандартными числовыми признаками (не шкалированными) и бинарными:
+В результате лучшие результаты показывают модели Random Forest Regressor и Gradient Boosting Regressor.
+
+Результаты лучшей модели - :
 
 **Mean Absolute Error (MAE) = ** \
 **R-Squared = **
